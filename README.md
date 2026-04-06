@@ -51,7 +51,6 @@ https://github.com/OlstFlow/GauSpla
 1. Download `GauSpla.zip` from:
    [GauSpla Releases](https://github.com/OlstFlow/GauSpla/releases)
 2. Drag `GauSpla.zip` into the Blender viewport
-3. Enable `GauSpla` if Blender asks for confirmation
 
 Alternative method:
 
