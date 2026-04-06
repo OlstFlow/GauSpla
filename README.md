@@ -40,7 +40,13 @@ This public bundle contains two parts:
 
 You can also install it by dragging the zip into the Blender viewport if your Blender build supports that flow.
 
+Prebuilt release downloads:
+
+- [GauSpla Releases](https://github.com/OlstFlow/GauSpla/releases)
+
 ### LichtFeld Studio plugin
+
+#### Manual install
 
 Copy:
 
@@ -51,6 +57,12 @@ to:
 `%USERPROFILE%\\.lichtfeld\\plugins\\gauspla_blender_sync`
 
 Then restart LichtFeld Studio.
+
+#### Install from repository
+
+LichtFeld Studio supports plugin installation directly from a GitHub repository URL, but that workflow expects a standalone plugin repository.
+
+This `GauSpla` repository is a bundle that contains both the Blender addon and the companion plugin, so the companion plugin in this repo should currently be installed with the manual folder-copy method above.
 
 ## Recommended Workflow
 
