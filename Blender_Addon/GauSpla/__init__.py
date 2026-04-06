@@ -1,6 +1,6 @@
 bl_info = {
     "name": "GauSpla",
-    "author": "OpenAI (Codex CLI) + You",
+    "author": "OlstFlow & Codex Bro",
     "version": (0, 3, 0),
     "blender": (5, 1, 0),
     "location": "View3D > Sidebar > GauSpla",

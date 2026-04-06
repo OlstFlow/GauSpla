@@ -2,7 +2,7 @@
 name = "gauspla_blender_sync"
 version = "0.1.0"
 description = "Per-node Blender sync bridge for LichtFeld Studio"
-authors = [{name = "OpenAI Codex"}]
+authors = [{name = "OlstFlow & Codex Bro"}]
 dependencies = []
 
 [tool.lichtfeld]
