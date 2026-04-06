@@ -39,7 +39,9 @@ In LichtFeld Studio:
 1. Open the `Plugins` panel
 2. Enter:
 
-`https://github.com/OlstFlow/GauSpla`
+```text
+https://github.com/OlstFlow/GauSpla
+```
 
 3. Install the plugin
 4. Restart LichtFeld Studio if needed
