@@ -49,12 +49,13 @@ https://github.com/OlstFlow/GauSpla
 ### Blender addon
 
 1. Zip the folder `Blender_Addon/GauSpla`
-2. In Blender, open:
-   `Edit -> Preferences -> Add-ons -> Install...`
-3. Select the zip
-4. Enable `GauSpla`
+2. Drag the zip into the Blender viewport
+3. Enable `GauSpla` if Blender asks for confirmation
 
-You can also install it by dragging the zip into the Blender viewport if your Blender build supports that flow.
+Alternative method:
+
+- `Edit -> Preferences -> Add-ons -> Install...`
+- select the same zip manually
 
 Prebuilt downloads:
 
