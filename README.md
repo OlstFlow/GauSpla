@@ -6,10 +6,10 @@
 
 `GauSpla` is a Blender addon for viewing Gaussian splats from `.ply` files and keeping a Blender object linked to a file on disk for quick reload.
 
-This public bundle contains two parts:
+This repository contains two parts:
 
-- `Blender_Addon/GauSpla` — the Blender addon
-- `LichtFeld_Studio_Plugin/GauSpla_Blender_Sync` — the companion plugin for LichtFeld Studio
+- the repository root is the `GauSpla Blender Sync` plugin for LichtFeld Studio
+- `Blender_Addon/GauSpla` contains the Blender addon
 
 ## What It Does
 
@@ -30,6 +30,20 @@ This public bundle contains two parts:
 
 ## Installation
 
+### LichtFeld Studio plugin
+
+#### Installation (LichtFeld Studio v0.5+)
+
+In LichtFeld Studio:
+
+1. Open the `Plugins` panel
+2. Enter:
+
+`https://github.com/OlstFlow/GauSpla`
+
+3. Install the plugin
+4. Restart LichtFeld Studio if needed
+
 ### Blender addon
 
 1. Zip the folder `Blender_Addon/GauSpla`
@@ -40,29 +54,9 @@ This public bundle contains two parts:
 
 You can also install it by dragging the zip into the Blender viewport if your Blender build supports that flow.
 
-Prebuilt release downloads:
+Prebuilt downloads:
 
 - [GauSpla Releases](https://github.com/OlstFlow/GauSpla/releases)
-
-### LichtFeld Studio plugin
-
-#### Manual install
-
-Copy:
-
-`LichtFeld_Studio_Plugin/GauSpla_Blender_Sync`
-
-to:
-
-`%USERPROFILE%\\.lichtfeld\\plugins\\gauspla_blender_sync`
-
-Then restart LichtFeld Studio.
-
-#### Install from repository
-
-LichtFeld Studio supports plugin installation directly from a GitHub repository URL, but that workflow expects a standalone plugin repository.
-
-This `GauSpla` repository is a bundle that contains both the Blender addon and the companion plugin, so the companion plugin in this repo should currently be installed with the manual folder-copy method above.
 
 ## Recommended Workflow
 
@@ -80,7 +74,7 @@ If you do not want to lose the original file, work on a copy or keep a backup.
 
 ## Compatibility Note
 
-The companion plugin was built for the LichtFeld Studio plugin API used by `v0.5.x`.
+The repository-root plugin was built for the LichtFeld Studio plugin API used by `v0.5.x`.
 
 Best-tested path:
 
@@ -97,6 +91,8 @@ See:
 - `Blender_Addon/GauSpla/LICENSE`
 - `Blender_Addon/GauSpla/THIRD_PARTY_NOTICES.md`
 
-## Separate Generic LFS Plugin
+## Notes
 
-If you only need fast `.ply` overwrite inside LichtFeld Studio without Blender, use the separate `PLY Quick Sync` plugin instead of the Blender-oriented companion plugin.
+If you only need fast `.ply` overwrite inside LichtFeld Studio without the Blender-oriented workflow, use the separate generic plugin:
+
+- [Lichtfeld-PLY-Quick_Sync-Plugin](https://github.com/OlstFlow/Lichtfeld-PLY-Quick_Sync-Plugin)
